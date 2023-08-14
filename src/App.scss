@@ -1,0 +1,74 @@
+body, html {
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/images/cuttingTomahawk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    gap: 4rem;
+    padding: 44px;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: orangered;
+
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: end;
+    justify-self: end;
+    flex-grow: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    a {
+        color: #fff;
+    }
+}
+
+.navbarP {
+    color: white
+}
+
+.heroDiv {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}

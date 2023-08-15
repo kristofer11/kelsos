@@ -5,18 +5,46 @@ body, html {
     box-sizing: border-box;
 }
 
-.background {
+.root {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    // min-height: 80vh;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
-    background-image: url('./assets/images/cuttingTomahawk.jpg');
+    height: 77vh;
+    // background-image: url('./assets/images/cuttingTomahawk.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+    
+}
+
+//TRYING JAVASCRIPT TO FINE-TUNE THIS
+
+// @keyframes changeBackground {
+//     0%, 100% { 
+//         background-image: url('./assets/images/tomahawk.jpg'); 
+//     }
+//     25% { 
+//         background-image: url('./assets/images/cuttingTomahawk.jpg'); 
+//     }
+//     50% { 
+//         background-image: url('./assets/images/steakRosemary.jpg'); 
+//     }
+//     75% { 
+//         background-image: url('./assets/images/michael-fousert-qbbUari4hsk-unsplash.jpg'); 
+//     }
+// }
+
+.header {
+    height: 122px;
 }
 
 .navbar {
@@ -24,10 +52,15 @@ body, html {
     gap: 4rem;
     padding: 44px;
     align-items: center;
-    height: 100px;
+    // height: 100px;
     width: 100%;
-    background-color: orangered;
+    background-color: #FBEDB7;
 
+    a {
+        color: #ffff;
+        text-decoration: none;
+    }
+    
 }
 
 .navbar-nav {
@@ -58,17 +91,21 @@ body, html {
     text-align: center;
 }
 
-footer {
+.footer {
     color: #fff;
-    display: flex;
+    // display: flex;
     justify-content: space-evenly;
-    position: absolute;
     width: 100%;
     height: 100px;
+    margin-top: auto;
+    flex-wrap: wrap;
 }
 
-.container {
-    margin: 0 !important;
-    padding: 0 !important;
+.main {
     width: 100% !important;
+}
+
+.ourStory {
+    color: #fff;
+    background-color: grey;
 }

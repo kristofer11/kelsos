@@ -3,7 +3,7 @@ import Logo from '../assets/images/kelsoslogonobg.png';
 
 const Header = () => {
     return (
-        <Navbar>
+        <Navbar className='header'>
             <Navbar.Brand href="/">
                 <Image
                     src={Logo}

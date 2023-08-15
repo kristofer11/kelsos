@@ -7,7 +7,7 @@ const Header = () => {
             <Navbar.Brand href="/">
                 <Image
                     src={Logo}
-                    width='122'
+                    width='222'
                 />
                 <p className='navbarP'>Kustom Meats</p>
             </Navbar.Brand>

@@ -8,6 +8,7 @@ const OurStory = () => {
                 <li>Custom processing </li>
                 <li>Wide variety of hand-cut, fresh meats to suit your preferences</li>
                 <li>Delicious selection of cured meats</li>
+                <li><em><strong>Feel free to call ahead to place your order</strong></em></li>
             </ul>
         </div>
     )

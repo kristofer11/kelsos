@@ -47,10 +47,16 @@ html {
     width: 100%;
     background-color: #F7F8F9;
     z-index: 1;
+    height: fit-content;
 
     a {
         color: #ffff;
         text-decoration: none;
+    }
+
+    .container {
+        background: #F7F8F9;
+        width: 100vw;
     }
 }
 
@@ -66,7 +72,8 @@ html {
 
     a {
         color: #5F0C0B;
-        font-size: 1.5rem;
+        font-size: 1.77rem;
+        font-weight: bold;
     }
 }
 
@@ -74,10 +81,13 @@ html {
     color: #5F0C0B;
     text-align: center;
     margin: 0;
+    font-size: 1.88rem;
 }
 
 .navbar-brand {
     margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .heroDiv {
@@ -86,7 +96,7 @@ html {
     color: #fff;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 55vh;
     text-align: center;
     font-family: courgette, sans;
     padding-inline: 2rem;
@@ -116,7 +126,7 @@ html {
     a {
         color: #5F0C0B;
         text-decoration: none;
-        margin: .75rem;
+        margin: .75rem .75rem 0;
         font-size: 1.25rem;
     }
 
@@ -124,7 +134,7 @@ html {
         margin-bottom: 0;
         color: #5F0C0B;
         background-color: var(--main-bg-color);
-        margin: .75rem;
+        margin: .75rem .75rem 0;
         font-size: 1.25rem;
 
     }

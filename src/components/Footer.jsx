@@ -12,19 +12,29 @@ const Footer = () => {
             </div>
 
             <div className='contactDiv' id='contactDiv'>
-                <a href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
-                    <img 
-                        src={FbLogo} 
-                        width='55'
-                    />
-                </a>
-                <a href='/'>
-                    <p>216 Maple Ave. Snohomish, WA 98290</p>
-                </a>
-                <p>Phone: <a href='tel: 360-568-3065'>(360) 568-3065</a></p>
-                <p>&#169; Kelso's Kustom Meats 2023</p>
-            </div>
+                <div>
+                    <a href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
+                        <img
+                            src={FbLogo}
+                            width='77'
+                        />
+                    </a>
+                </div>
 
+                <div>
+                    <a href='/'>
+                        <p>216 Maple Ave. Snohomish, WA 98290</p>
+                    </a>
+                    <p>Phone: <a href='tel: 360-568-3065'>(360) 568-3065</a></p>
+                </div>
+
+                <div>
+                    <p>Website by <a href='https://krishvattum.com' target='_blank'><em>Kris Hvattum</em></a></p>
+                </div>
+
+
+            </div>
+            {/* <p style={{ margin: 0, paddingInline: '4rem' }}>&#169; Kelso's Kustom Meats 2023</p> */}
         </footer>
     )
 }

@@ -1,24 +1,43 @@
 import { Navbar, Nav, Image, Container } from 'react-bootstrap';
 import Logo from '../assets/images/kelsoslogonobg.png';
 import Phone from '../assets/images/icons8-phone.svg';
-import FbLogo from '../assets/images/facebook_733547.png'
+import FbLogo from '../assets/images/facebook_733547.png';
+import { useState, useEffect } from 'react';
+import { useSpring, animated } from 'react-spring';
 
 const Header = () => {
+    const [toggle, setToggle] = useState(false);
+
+    const animatedStyle = useSpring({
+        opacity: toggle ? 1 : 0,
+        transform: toggle ? 'scale(1,1)' : 'scale(0.7,0.7)',
+        config: { duration: 400 }
+    });
+
+    useEffect(() => {
+        setToggle(true);
+    }, [])
+
     return (
         <Navbar className='header' expand='md' bg='light' variant='light'>
             <Container>
-                <Navbar.Brand href="/">
-                    <Image
-                        src={Logo}
-                        width='301'
-                        className='navbarBrandImg'
-                    />
-                    <p className='navbarP'>Kustom Meats</p>
-                </Navbar.Brand>
+                <animated.div style={animatedStyle}>
+                    <Navbar.Brand href="/">
+
+                        <Image
+                            src={Logo}
+                            width='301'
+                            className='navbarBrandImg'
+                        />
+
+
+                        <p className='navbarP'>Kustom Meats</p>
+                    </Navbar.Brand>
+                </animated.div>
                 <Navbar.Toggle aria-controls='navbarNav' />
                 <Navbar.Collapse id='navbarNav'>
-                    <Nav>                        
-                        <Nav.Link href="#mapDiv " style={{fontSize: '2.5rem'}}>
+                    <Nav>
+                        <Nav.Link href="#mapDiv " style={{ fontSize: '2.5rem' }}>
                             Find Us
                         </Nav.Link>
                         <Nav.Link href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
@@ -29,9 +48,9 @@ const Header = () => {
                             />
                         </Nav.Link>
                         <Nav.Link href="#contactDiv">
-                            
-                            <img 
-                                src={Phone} 
+
+                            <img
+                                src={Phone}
                                 className='headerLink'
                                 width='75'
                             />

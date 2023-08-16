@@ -16,11 +16,11 @@ const Header = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbarNav' />
                 <Navbar.Collapse id='navbarNav'>
-                    <Nav>
-                        {/* <Nav.Link href="/login">Our Story</Nav.Link> */}
-                        
-                        <Nav.Link href="#mapDiv ">Find Us</Nav.Link>
-                        <Nav.Link href="#mapDiv ">
+                    <Nav>                        
+                        <Nav.Link href="#mapDiv " style={{fontSize: '2.5rem'}}>
+                            Find Us
+                        </Nav.Link>
+                        <Nav.Link href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
                             <img
                                 src={FbLogo}
                                 width='60'

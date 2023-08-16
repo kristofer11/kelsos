@@ -46,6 +46,7 @@ html {
     align-items: center;
     width: 100%;
     background-color: #F7F8F9;
+    z-index: 1;
 
     a {
         color: #ffff;
@@ -60,7 +61,6 @@ html {
     justify-content: end;
     justify-self: end;
     flex-grow: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-right: 2rem;
     background-color: #F7F8F9;
 
@@ -199,6 +199,8 @@ html {
     padding-block: 2rem;
 }
 
+
+
 @media (max-width: 768px) {
     .heroDiv {
         h1 {
@@ -208,5 +210,9 @@ html {
         h3 {
             font-size: 2rem;
         }
+    }
+
+    .mapIframe {
+        max-width: 100%;
     }
 }

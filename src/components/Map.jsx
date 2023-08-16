@@ -11,6 +11,7 @@ const MapComponent = () => {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+        className='mapIframe'
       ></iframe>
     </div>
   );

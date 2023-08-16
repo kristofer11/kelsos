@@ -10,7 +10,7 @@ const Header = () => {
                         src={Logo}
                         width='222'
                     />
-                    <p className='navbarP'>Kustom Meats</p>
+                    {/* <p className='navbarP'>Kustom Meats</p> */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbarNav' />
                 <Navbar.Collapse id='navbarNav'>

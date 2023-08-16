@@ -32,7 +32,7 @@ const Header = () => {
                             <img 
                                 src={Phone} 
                                 className='headerLink'
-                                width='72'
+                                width='75'
                             />
                         </Nav.Link>
                     </Nav>

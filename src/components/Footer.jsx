@@ -12,14 +12,14 @@ const Footer = () => {
             </div>
 
             <div className='contactDiv' id='contactDiv'>
-                <div>
+                {/* <div>
                     <a href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
                         <img
                             src={FbLogo}
                             width='77'
                         />
                     </a>
-                </div>
+                </div> */}
 
                 <div className='addressDiv'>
                     <h6><strong>Kelso's Kustom Meats</strong></h6>

@@ -11,6 +11,7 @@ const Header = () => {
                     <Image
                         src={Logo}
                         width='301'
+                        className='navbarBrandImg'
                     />
                     <p className='navbarP'>Kustom Meats</p>
                 </Navbar.Brand>

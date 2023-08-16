@@ -32,7 +32,7 @@ const Footer = () => {
                         style={{ 
                             fontSize: '1.5rem', 
                             color: 'black', 
-                            fontFamily: 'Saira Semi Condensed, sans-serif' 
+
                         }}
                     >
                         Website by

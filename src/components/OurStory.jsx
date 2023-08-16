@@ -1,15 +1,16 @@
 import React from 'react'
 
 const OurStory = () => {
-  return (
-    <div className='ourStory'>
-        <h2>About Us</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla consequatur, necessitatibus ut architecto animi reprehenderit est illo ipsum nam eligendi repudiandae quidem eos magnam, iusto maiores itaque, aliquam officia!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dicta nam iusto corrupti excepturi est autem tenetur incidunt iure doloremque accusantium esse doloribus maiores, necessitatibus quo! Fuga consectetur doloribus temporibus.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla consequatur, necessitatibus ut architecto animi reprehenderit est illo ipsum nam eligendi repudiandae quidem eos magnam, iusto maiores itaque, aliquam officia!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dicta nam iusto corrupti excepturi est autem tenetur incidunt iure doloremque accusantium esse doloribus maiores, necessitatibus quo! Fuga consectetur doloribus temporibus.</p>
-    </div>
-  )
+    return (
+        <div className='ourStory'>
+            <h4>We specialize in friendly, personal service and exceptional quality. </h4>
+            <ul>
+                <li>Custom processing </li>
+                <li>Wide variety of hand-cut, fresh meats to suit your preferences</li>
+                <li>Delicious selection of cured meats</li>
+            </ul>
+        </div>
+    )
 }
 
-export default OurStory
+export default OurStory;

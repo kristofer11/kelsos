@@ -21,15 +21,25 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div>
-                    <a href='/'>
-                        <p>216 Maple Ave. Snohomish, WA 98290</p>
-                    </a>
+                <div className='addressDiv'>
+                    <h6><strong>Kelso's Kustom Meats</strong></h6>
+                    <p>216 Maple Ave. Snohomish, WA 98290</p>
                     <p>Phone: <a href='tel: 360-568-3065'>(360) 568-3065</a></p>
                 </div>
 
-                <div>
-                    <p>Website by <a href='https://krishvattum.com' target='_blank'><em>Kris Hvattum</em></a></p>
+                <div className='krisDiv'>
+                    <p
+                        style={{ 
+                            fontSize: '1.5rem', 
+                            color: 'black', 
+                            fontFamily: 'Saira Semi Condensed, sans-serif' 
+                        }}
+                    >
+                        Website by
+                        <a href='https://krishvattum.com' target='_blank' className='krisLink'>
+                            Kris Hvattum
+                        </a>
+                    </p>
                 </div>
 
 

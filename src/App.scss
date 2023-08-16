@@ -3,10 +3,10 @@
     --main-text-color: #000;
     --main-light-text-color: #fff;
     --alt-bg-color: #A1A4A3;
-    --nav-link-color: #5a1d00;
+    --nav-link-color: #5F0C0B;
     --link-hover-bg-color: #152d7d;
     --nav-link-hover-color: #008000;
-    --accent-text-color: #A1474C;
+    --accent-text-color: #566A39;
     --main-font-serif: 'Martel', serif;
     --main-font-sans: 'Martel Sans', sans-serif;
 }
@@ -18,6 +18,10 @@ html {
     margin: 0;
     box-sizing: border-box;
     // background-color: var(--main-bg-color);
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
 }
 
 .background {
@@ -36,7 +40,11 @@ html {
 
 .header {
     height: 122px;
+    font-family: 'Roboto Slab', serif;
+}
 
+.nav-link img{
+    fill: blue;
 }
 
 .navbar {
@@ -71,14 +79,14 @@ html {
     background-color: #F7F8F9;
 
     a {
-        color: #5F0C0B;
+        color: var(--nav-link-color);
         font-size: 1.77rem;
         font-weight: bold;
     }
 }
 
 .navbarP {
-    color: #5F0C0B;
+    color: var(--nav-link-color);
     text-align: center;
     margin: 0;
     font-size: 1.88rem;
@@ -124,7 +132,7 @@ html {
     background-color: var(--main-bg-color);
 
     a {
-        color: #5F0C0B;
+        color: var(--nav-link-color);
         text-decoration: none;
         margin: .75rem .75rem 0;
         font-size: 1.55rem;
@@ -149,13 +157,41 @@ html {
     }
 
 
+
     .contactDiv {
         padding: 2rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        background-color: var(--main-bg-color);
         flex-wrap: wrap;
-        background-color: var(--main-bg-color)
+
+        .krisDiv a{
+            font-family: 'Saira Semi Condensed', sans-serif !important;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+
+        .krisLink {
+            color: black;
+            font-size: 1.75rem !important;
+
+            &:hover {
+                color: #408697;
+            }
+        }
+
+        .addressDiv {
+            * {
+                text-align: center;
+            }
+
+            h6 {
+                font-size: 2rem;
+                color: var(--nav-link-color);
+                text-align: center;
+            }
+        }
     }
 }
 
@@ -197,6 +233,18 @@ html {
         text-align: center;
         color: var(--main-text-color);
         font-weight: bold;
+    }
+
+    .callLink {
+        text-decoration: none;
+        color: var(--accent-text-color);
+        font-weight: bolder;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.3, 0.4) !important;
+            color: var(--nav-link-color);
+        }
     }
 }
 

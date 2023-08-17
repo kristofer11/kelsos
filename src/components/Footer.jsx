@@ -39,6 +39,7 @@ const Footer = () => {
                         <a href='https://krishvattum.com' target='_blank' className='krisLink'>
                             Kris Hvattum
                         </a>
+                        2023
                     </p>
                 </div>
 

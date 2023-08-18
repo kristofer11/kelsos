@@ -47,7 +47,7 @@ const Header = () => {
                                 className='headerLink'
                             />
                         </Nav.Link>
-                        <Nav.Link href="#contactDiv" className='d-lg-none'>
+                        <Nav.Link href='tel: 360-568-3065' className='d-lg-none'>
 
                             <img
                                 src={Phone}

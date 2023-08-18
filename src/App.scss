@@ -46,7 +46,7 @@ html {
 
 .navbar {
     display: flex;
-    gap: 4rem;
+    // gap: 4rem;
     padding: 44px;
     align-items: center;
     width: 100%;
@@ -94,6 +94,14 @@ html {
     margin-left: 2rem;
     display: flex;
     flex-direction: column;
+}
+
+.header.expanded {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); 
+    z-index: 1000;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .heroDiv {

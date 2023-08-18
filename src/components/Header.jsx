@@ -37,7 +37,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls='navbarNav' />
                 <Navbar.Collapse id='navbarNav'>
                     <Nav>
-                        <Nav.Link href="#mapDiv " style={{ fontSize: '2.5rem' }}>
+                        <Nav.Link href="#mapDiv " style={{ fontSize: '2rem' }}>
                             Find Us
                         </Nav.Link>
                         <Nav.Link href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
@@ -47,7 +47,7 @@ const Header = () => {
                                 className='headerLink'
                             />
                         </Nav.Link>
-                        <Nav.Link href="#contactDiv">
+                        <Nav.Link href="#contactDiv" className='d-lg-none'>
 
                             <img
                                 src={Phone}

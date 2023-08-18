@@ -3,12 +3,12 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/kelsos/dist/',
+    base: '/',
     plugins: [react()],
     css: {
         preprocessorOptions: {
             scss: {
-                additionalData: `@import "src/styles/variables.scss";`, // Adjust the path to your SCSS variables file
+                additionalData: `@import "src/styles/variables.scss";`,
             },
         },
     },

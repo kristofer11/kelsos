@@ -5,7 +5,7 @@ const OurStory = () => {
         <div className='ourStory'>
             <h4 style={{color: '#566A39'}}>We specialize in friendly, personal service and exceptional quality. </h4>
             <ul>
-                <li>Custom processing </li>
+                <li>Game processing </li>
                 <li>Wide variety of hand-cut, fresh meats to suit your preferences</li>
                 <li>Delicious selection of cured meats</li>
                 <li><em><strong>Feel free to <a href='tel: 360-568-3065' className='callLink'>call ahead</a> to place your order</strong></em></li>

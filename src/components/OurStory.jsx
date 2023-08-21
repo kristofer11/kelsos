@@ -3,7 +3,7 @@ import React from 'react'
 const OurStory = () => {
     return (
         <div className='ourStory'>
-            <h4 style={{color: '#566A39'}}>We specialize in friendly, personal service and exceptional quality. </h4>
+            <h2 style={{color: '#566A39'}}>We specialize in friendly, personal service and exceptional quality. </h2>
             <ul>
                 <li>Game processing </li>
                 <li>Wide variety of hand-cut, fresh meats to suit your preferences</li>

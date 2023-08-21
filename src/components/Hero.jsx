@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <animated.div style={animatedStyle} className='heroDiv'>
         {/* <h1>Kelso's Kustom Meats</h1> */}
-        <h3>Home of Snohomish County's best meat market</h3>
+        <h1>Home of Snohomish County's best meat market</h1>
     </animated.div>
   )
 }

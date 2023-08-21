@@ -5,7 +5,7 @@ import FbLogo from '../assets/images/facebook.svg'
 const Footer = () => {
     return (
         <footer className='footer'>
-            <h2>Find Us</h2>
+            <h3>Find Us</h3>
 
             <div className='mapDiv' id='mapDiv' >
                 <MapComponent />
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div> */}
 
                 <div className='addressDiv'>
-                    <h6><strong>Kelso's Kustom Meats</strong></h6>
+                    <h4><strong>Kelso's Kustom Meats</strong></h4>
                     <p>216 Maple Ave. Snohomish, WA 98290</p>
                     <p>Phone: <a href='tel: 360-568-3065'>(360) 568-3065</a></p>
                 </div>

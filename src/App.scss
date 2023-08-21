@@ -176,25 +176,10 @@ html {
             text-align: center;
         }
 
-        .krisDiv a{
-            font-family: 'Saira Semi Condensed', sans-serif !important;
-            font-size: 1.5rem;
-            font-style: italic;
-            text-align: center;
-        }
-
-        .krisLink {
-            color: black;
-            font-size: 1.75rem !important;
-
-            &:hover {
-                color: #408697;
-            }
-        }
-
         .addressDiv {
             * {
                 text-align: center;
+                margin-top: 1rem;
             }
 
             h4 {
@@ -202,6 +187,45 @@ html {
                 color: var(--nav-link-color);
                 text-align: center;
             }
+        }
+    }
+    .hoursDiv {
+        background-color: var(--accent-text-color);
+        color: black;
+        padding-block: 1rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        
+        h5{
+            font-size: 2.5rem;
+        }
+
+        ul {
+            margin-bottom: 0;
+            list-style-type: none;
+            font-size: 1.5rem;
+        }
+    }
+
+    .krisDiv * {
+        background-color: var(--accent-text-color);
+        margin: 0;
+        text-align: center;
+    }
+
+    .krisDiv a{
+        font-family: 'Saira Semi Condensed', sans-serif !important;
+        font-size: 1.5rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .krisLink {
+        color: black;
+        font-size: 1.75rem !important;
+
+        &:hover {
+            color: #408697;
         }
     }
 }

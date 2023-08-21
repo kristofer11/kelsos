@@ -38,7 +38,7 @@ const Header = () => {
                 <Navbar.Collapse id='navbarNav'>
                     <Nav>
                         <Nav.Link href="#mapDiv " style={{ fontSize: '2rem' }}>
-                            Find Us
+                            Address & Hours
                         </Nav.Link>
                         <Nav.Link href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
                             <img

@@ -280,6 +280,11 @@ html {
 
 .ourStoryContent {
     justify-content: center;
+
+    .ourStoryImg img {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        border-radius: 8px;
+    }
 }
 
 .mapDiv {
@@ -289,9 +294,12 @@ html {
     max-width: 100%;
     padding-inline: 2rem;
     padding-block: 2rem;
+    border-radius: 8px;
 }
 
-
+.mapIframe {
+    border-radius: 8px;
+}
 
 @media (max-width: 768px) {
     .heroDiv {
@@ -320,6 +328,7 @@ html {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
+
         .ourStoryImg {
             display: flex;
             flex-direction: column;
@@ -329,6 +338,7 @@ html {
                 width: 80vw;
             }
         }
+
         .ourStoryText {
             width: 80vw
         }

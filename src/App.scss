@@ -40,7 +40,7 @@ html {
     font-family: 'Roboto Slab', serif;
 }
 
-.nav-link img{
+.nav-link img {
     fill: blue;
 }
 
@@ -99,9 +99,9 @@ html {
 .header.expanded {
     position: fixed;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.9);
     z-index: 1000;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .heroDiv {
@@ -187,14 +187,15 @@ html {
             }
         }
     }
+
     .hoursDiv {
         background-color: var(--accent-text-color);
         color: var(--nav-link-color);
         padding-block: 1rem;
         text-align: center;
         margin-top: 1.5rem;
-        
-        h5{
+
+        h5 {
             font-size: 2.5rem;
         }
 
@@ -211,7 +212,7 @@ html {
         text-align: center;
     }
 
-    .krisDiv a{
+    .krisDiv a {
         font-family: 'Saira Semi Condensed', sans-serif !important;
         font-size: 1.5rem;
         font-style: italic;
@@ -277,6 +278,10 @@ html {
     }
 }
 
+.ourStoryContent {
+    justify-content: center;
+}
+
 .mapDiv {
     width: 100%;
     background: linear-gradient(var(--main-bg-color), var(--alt-bg-color));
@@ -310,4 +315,23 @@ html {
         font-size: 1.66rem;
         margin-top: -11px;
     }
+
+    .ourStoryContent {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        .ourStoryImg {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 80vw;
+            }
+        }
+        .ourStoryText {
+            width: 80vw
+        }
+    }
+
 }

@@ -9,10 +9,10 @@ import Liam from '../assets/images/liam.png'
 
 export const bgImages = [
     Cutting,
-    Liam,
+    Storefront, 
     Hands,  
     Rosemary,
-    Storefront,           
+    Liam,
     Cow,      
     Case,    
 ]

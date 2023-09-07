@@ -28,7 +28,7 @@ const Footer = () => {
                     <li>Thursday: 9AM-6PM</li>
                     <li>Friday: 9AM-6PM</li>
                     <li>Saturday: 9AM-5PM</li>
-                    <li>Sunday and Monday: <em>closed</em></li>
+                    <li>Sunday & Monday: <em>closed</em></li>
                 </ul>
             </div>
 

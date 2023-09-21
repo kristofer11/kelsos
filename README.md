@@ -1,8 +1,8 @@
-# React + Vite
+# Kelso's Meats Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Kelso's Meats Landing Page project! This single-page web application showcases Kelso's Meats, a local butcher shop. The landing page provides information about the shop's offerings, hours of operation, and features an automatically changing background image for the hero section.
 
-Currently, two official plugins are available:
+[Visit Kelso's Meats Website](https://www.kelsosmeats.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Kelsos Meats Screenshot](./src/assets/images/screenshot.png)
+

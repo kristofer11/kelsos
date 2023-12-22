@@ -11,7 +11,7 @@ const Header = () => {
     const animatedStyle = useSpring({
         opacity: toggle ? 1 : 0,
         transform: toggle ? 'scale(1,1)' : 'scale(0.7,0.7)',
-        config: { duration: 400 }
+        config: { duration: 444 }
     });
 
     useEffect(() => {
@@ -38,22 +38,27 @@ const Header = () => {
                 <Navbar.Collapse id='navbarNav'>
                     <Nav>
                         <Nav.Link href="#mapDiv " style={{ fontSize: '1.88rem' }}>
-                            Hours & Location
+                            <animated.div style={animatedStyle}>Hours & Location</animated.div>
                         </Nav.Link>
                         <Nav.Link href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
-                            <img
-                                src={FbLogo}
-                                width='44'
-                                className='headerLink'
-                            />
+                            <animated.div style={animatedStyle}>
+
+                                <img
+                                    src={FbLogo}
+                                    width='45'
+                                    className='headerLink'
+                                    style={{borderRadius: '22%'}}
+                                />
+                            </animated.div>
                         </Nav.Link>
                         <Nav.Link href='tel: 360-568-3065' className='d-lg-none'>
-
-                            <img
-                                src={Phone}
-                                className='headerLink'
-                                width='52'
-                            />
+                            <animated.span style={animatedStyle}>
+                                <img
+                                    src={Phone}
+                                    className='headerLink pt-1'
+                                    width='52'
+                                />
+                            </animated.span>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

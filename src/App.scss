@@ -50,7 +50,7 @@ html {
     padding: 44px;
     align-items: center;
     width: 100%;
-    background-color: #F7F8F9;
+    background-color: var(--main-bg-color);
     z-index: 1;
     height: fit-content;
 
@@ -60,7 +60,7 @@ html {
     }
 
     .container {
-        background: #F7F8F9;
+        background: var(--main-bg-color);
         width: 100vw;
     }
 }
@@ -74,6 +74,8 @@ html {
     flex-grow: 1;
     margin-right: 2rem;
     background-color: #F7F8F9;
+
+
 
     a {
         color: var(--nav-link-color);

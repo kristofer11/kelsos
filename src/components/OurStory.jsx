@@ -1,5 +1,8 @@
 import Liam from '../assets/images/liam-cropped.png';
-import Phone from '../assets/images/icons8-phone.svg'
+import Phone from '../assets/images/icons8-phone.svg';
+import Pig from '../assets/images/pignobg.png';
+import Chicken from '../assets/images/chickennobg.png';
+import Cow from '../assets/images/cownobg.png';
 
 const OurStory = () => {
     return (
@@ -23,7 +26,6 @@ const OurStory = () => {
                                     width='52'
                                 />
                             </a>
-                        
                         </li>
                         <li>
                             <a className='d-md-none callLink'  href='tel: 360-568-3065' >
@@ -36,6 +38,38 @@ const OurStory = () => {
                         </li>
                     </ul>
                 </div>
+                {/* <div className="ourStoryImages">
+                    <img src={Pig} alt="" />
+                    <img src={Cow} alt="" />
+                    <img src={Chicken} alt="" />
+                </div> */}
+
+
+
+                {/* <ul>
+                <li className='d-flex justify-content-center align-items-center gap-2'>
+                            <span><em><strong>Feel free to call ahead to place your order</strong></em></span>
+                            <a className='d-md-block d-none bodyCallLink'  href='tel: 360-568-3065' >
+                                <img
+                                    src={Phone}
+                                    className='headerLink bodyLink'
+                                    width='52'
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a className='d-md-none callLink'  href='tel: 360-568-3065' >
+                                <img
+                                    src={Phone}
+                                    className='headerLink bodyCallLink'
+                                    width='66'
+                                />
+                            </a>
+                        </li>
+
+                </ul> */}
+
+
             </div>
         </div>
     )

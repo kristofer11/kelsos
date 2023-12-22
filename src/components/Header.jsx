@@ -43,7 +43,7 @@ const Header = () => {
                         <Nav.Link href='https://www.facebook.com/profile.php?id=100054302299730' target='_blank' >
                             <img
                                 src={FbLogo}
-                                width='60'
+                                width='44'
                                 className='headerLink'
                             />
                         </Nav.Link>

@@ -10,10 +10,10 @@ const OurStory = () => {
                 </div>
                 <div className='ourStoryText'>
                     <ul>
-                        <li>Game processing </li>
-                        <li>Wide variety of hand-cut, fresh meats to suit your preferences</li>
-                        <li>Delicious selection of cured meats</li>
-                        <li><em><strong>Feel free to <a href='tel: 360-568-3065' className='callLink'>call ahead</a> to place your order</strong></em></li>
+                        <li><span className='check'>✔</span> Game processing </li>
+                        <li><span className='check'>✔</span> Wide variety of hand-cut, fresh meats to suit your preferences</li>
+                        <li><span className='check'>✔</span> Delicious selection of cured meats</li>
+                        <li><em><strong>Feel free to <button href='tel: 360-568-3065' className='callLink'>call ahead</button> to place your order</strong></em></li>
                     </ul>
                 </div>
             </div>

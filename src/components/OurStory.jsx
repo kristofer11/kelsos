@@ -14,12 +14,12 @@ const OurStory = () => {
                 </div>
                 <div className='ourStoryText'>
                     <ul>
-                        <li><span className='check'>✔</span> Game processing </li>
+                        {/* <li><span className='check'>✔</span> Game processing </li> */}
                         <li><span className='check'>✔</span> Wide variety of hand-cut, fresh meats to suit your preferences</li>
                         <li><span className='check'>✔</span> Delicious selection of cured meats</li>
                         <li className='d-flex justify-content-center align-items-center gap-2'>
                             <span><em><strong>Feel free to call ahead to place your order</strong></em></span>
-                            <a className='d-md-block d-none bodyCallLink'  href='tel: 360-568-3065' >
+                            <a className='d-md-block d-none bodyCallLink' href='tel: 360-568-3065' >
                                 <img
                                     src={Phone}
                                     className='headerLink bodyLink'
@@ -28,7 +28,7 @@ const OurStory = () => {
                             </a>
                         </li>
                         <li>
-                            <a className='d-md-none callLink'  href='tel: 360-568-3065' >
+                            <a className='d-md-none callLink' href='tel: 360-568-3065' >
                                 <img
                                     src={Phone}
                                     className='headerLink bodyCallLink'
